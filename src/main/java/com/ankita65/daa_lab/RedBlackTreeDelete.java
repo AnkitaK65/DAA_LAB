@@ -268,3 +268,18 @@ class RedBlackTreeDelete {
         tree.printTree();
     }
 }
+/*
+Output:
+Tree before deletion:
+└── 20 (Black)
+    ├── 10 (Black)
+    │   ├── 5 (Red)
+    │   └── 15 (Red)
+    └── 25 (Black)
+
+Tree after deleting 15:
+└── 20 (Black)
+    ├── 10 (Black)
+    │   ├── 5 (Red)
+    └── 25 (Black)
+*/

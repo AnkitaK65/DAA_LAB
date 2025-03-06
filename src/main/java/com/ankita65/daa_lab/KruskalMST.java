@@ -126,3 +126,13 @@ public class KruskalMST {
         graph.kruskalMST();
     }
 }
+/*
+Output:
+Minimum Spanning Tree:
+1 - 2 : 2
+0 - 1 : 4
+1 - 3 : 5
+3 - 5 : 6
+3 - 4 : 7
+Total Minimum Cost: 24
+*/

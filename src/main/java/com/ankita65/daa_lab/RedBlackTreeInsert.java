@@ -181,3 +181,41 @@ public class RedBlackTreeInsert {
         t.printTree();
     }
 }
+/*
+Output:
+1(B)
+
+1(B) 4(R)
+
+1(R) 4(B) 6(R)
+
+1(B) 3(R) 4(B) 6(B)
+
+1(B) 3(R) 4(B) 5(R) 6(B)
+
+1(B) 3(R) 4(B) 5(R) 6(B) 7(R)
+
+1(B) 3(R) 4(B) 5(B) 6(R) 7(B) 8(R)
+
+1(R) 2(B) 3(R) 4(B) 5(B) 6(R) 7(B) 8(R)
+
+1(R) 2(B) 3(R) 4(B) 5(B) 6(R) 7(R) 8(B) 9(R)
+
+                              9(R)
+
+                    8(B)
+
+                              7(R)
+
+          6(R)
+
+                    5(B)
+
+4(B)
+
+                    3(R)
+
+          2(B)
+
+                    1(R)
+*/
